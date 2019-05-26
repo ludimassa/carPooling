@@ -45,6 +45,7 @@ CREATE TABLE viaggi
     dataOraPartenza date,
     tempoStimato int,
     costo decimal(5,2),
+	stato enum('Prenotazioni aperte','Prenotazioni chiuse'),
     idAutista int,
     idAuto int,
     CONSTRAINT viaggio_autisti_idAutista_fk FOREIGN KEY (idAutista) REFERENCES autisti (idAutista) ON DELETE CASCADE ON UPDATE CASCADE,

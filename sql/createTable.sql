@@ -37,7 +37,7 @@ CREATE TABLE auto
     idAutista int,
     CONSTRAINT auto_autisti_idAutista_fk FOREIGN KEY (idAutista) REFERENCES autisti (idAutista) ON DELETE CASCADE ON UPDATE CASCADE
 );
-CREATE TABLE viaggio
+CREATE TABLE viaggi
 (
     idViaggio int PRIMARY KEY AUTO_INCREMENT,
     partenza varchar(30),

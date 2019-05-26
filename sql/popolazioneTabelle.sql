@@ -22,7 +22,7 @@ INSERT INTO `prenotazione` (`idPrenotazione`, `partenza`, `arrivo`, `statoPrenot
 (2, 'Napoli', 'Barcellona', 'Da accettare', 1, 3),
 (3, 'Napoli', 'Bari', 'Accettata', 4, 2);
 
-INSERT INTO `viaggio` (`idViaggio`, `partenza`, `arrivo`, `dataOraPartenza`, `tempoStimato`, `costo`, `idAutista`, `idAuto`) VALUES
+INSERT INTO `viaggi` (`idViaggio`, `partenza`, `arrivo`, `dataOraPartenza`, `tempoStimato`, `costo`, `idAutista`, `idAuto`) VALUES
 (1, 'Napoli', 'Barcellona', '2019-05-21', 2250, '300', 1, 1),
 (2, 'Napoli', 'Roma', '2019-05-30', 120, '15', 1, 2),
 (3, 'Napoli', 'Secondigliano', '2019-05-21', 2, '5', 2, 3),
